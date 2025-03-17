@@ -1,0 +1,68 @@
+# Python #
+##########
+*.pyc
+*.pyo
+__pycache__/
+*.swp
+*.swo
+
+# Virtual Environments #
+########################
+venv/
+env/
+.DS_Store
+
+# IDEs e Ferramentas #
+######################
+.vscode/
+.idea/
+*.iml
+
+# Arquivos de Configuração Sensíveis #
+######################################
+.env
+.env.local
+*.log
+config.yaml
+config.json
+
+# Dependências #
+###############
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos de Build #
+#####################
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# Banco de Dados #
+##################
+db.sqlite3
+myside.db
+pg_data/   
+
+# Modelos LlamaCpp #
+####################
+models/
+*.gguf
+*.bin
+*.ckpt
+
+# Docker #
+##########
+docker-compose.override.yml
+.dockerignore
+db_data/
+volumes/
+
+# FastAPI e Uvicorn #
+######################
+*.pid
+*.sock
+*.log
+
