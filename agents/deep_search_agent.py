@@ -249,7 +249,7 @@ class DeepSearchAgent(BaseAgent):
             # 🔹 Fazendo apenas **UMA** busca por fonte
             for chave, consulta in consultas.items():
                 
-                # PONTO DE BREAKPOINT AQUI 👇
+                # PONTO DE BREAKPOINT AQUI 
                 print(f"[DEBUG] Executando busca: {chave} - {consulta}")
                 
                 if chave == "google":
