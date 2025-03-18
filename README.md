@@ -26,7 +26,7 @@ O projeto faz uso do **LangChain**, **LlamaCpp**, **FastAPI** e **SQLAlchemy**, 
 
 ### 📂 1. Clonar o repositório
 ```bash
-git clone https://github.com/seu-repositorio/desafio-myside.git
+git clone https://github.com/mauriciobedun/desafio-myside.git
 cd desafio-myside
 ```
 
